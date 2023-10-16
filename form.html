@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Application Form</title>
+  </head>
+  <body>
+    <h1>Application Form</h1>
+
+    <label for="Firstname">First Name</label>
+    <br />
+    <input
+      type="text"
+      id="Firstname"
+      maxlength="20"
+      placeholder="20 letters only"
+    />
+    <br />
+    <label for="Lastname">Last Name</label>
+    <br />
+    <input
+      type="text"
+      id="Lastname"
+      maxlength="20"
+      placeholder="20 letters only"
+    />
+    <br />
+
+    <p>Region</p>
+    <input type="radio" name="region" id="asia" />
+    <label for="asia">Asia</label>
+    <input type="radio" name="region" id="europe" />
+    <label for="europe">Europe</label>
+    <input type="radio" name="region" id="northAmerica" />
+    <label for="northAmerica">North America</label>
+    <input type="radio" name="region" id="southAmerica" />
+    <label for="southAmerica">South America</label>
+    <input type="radio" name="region" id="africa" />
+    <label for="africa">Africa</label>
+    <br />
+
+    <p>Coding Class</p>
+    <input type="checkbox" id="javascript" />
+    <label for="javascript">Javascript</label>
+    <input type="checkbox" id="python" />
+    <label for="python">Python</label>
+    <input type="checkbox" id="html/css" />
+    <label for="html/css">HTML/CSS</label>
+    <br />
+    <br />
+
+    <label for="experience"> Your coding experience </label>
+    <select id="experience">
+      <option value="NoExperiences">No Experiences</option>
+      <option value="SomeExperiences">Some Experiences</option>
+      <option value="ExtExperiences">Extensive Experiences</option>
+    </select>
+    <br />
+    <br />
+
+    <p>Any other comments for your application</p>
+    <textarea rows="10" cols="50"> </textarea>
+  </body>
+</html>
